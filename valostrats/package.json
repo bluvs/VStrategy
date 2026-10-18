@@ -1,0 +1,54 @@
+{
+  "name": "valostrats",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "electron": "wait-on tcp:5173 && cross-env NODE_ENV=development electron .",
+    "electron:dev": "concurrently -k \"cross-env BROWSER=none npm run dev\" \"npm run electron\"",
+    "electron:build": "npm run build && electron .",
+    "buildapp": "electron-builder"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/ws": "^8.18.2",
+    "konva": "^10.7.0",
+    "lucide-react": "^1.48.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-konva": "^19.3.0",
+    "tailwindcss": "^4.3.3",
+    "use-image": "^1.1.4",
+    "ws": "^8.22.0",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "concurrently": "^10.0.5",
+    "cross-env": "^10.1.0",
+    "electron": "^44.5.0",
+    "oxlint": "^1.81.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "wait-on": "^9.5.1",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.example.valostrats",
+    "productName": "ValoStrats",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": ["nsis"]
+    }
+  }
+}
