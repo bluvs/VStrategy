@@ -32,7 +32,7 @@ export default function Sidebar() {
 
       <div className="p-8 border-b border-[#2e303a] flex items-center justify-center gap-2 bg-gradient-to-b from-[#1a1c23] to-[#111111]">
         {/* Logo */}
-        <img src="/logo.png" alt="ValoStrats Logo" className="h-24 w-auto drop-shadow-[0_0_15px_rgba(255,70,85,0.2)]" />
+        <img src="/logo.png" alt="VStrategy Logo" className="h-24 w-auto drop-shadow-[0_0_15px_rgba(255,70,85,0.2)]" />
       </div>
 
       <div className="flex-1 overflow-y-auto p-5 space-y-10 custom-scrollbar relative">

@@ -200,7 +200,7 @@ export default function CanvasMap({ width, height }: CanvasMapProps) {
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = `valostrats-${new Date().toISOString().slice(0, 10)}.txt`;
+      a.download = `VStrategy-${new Date().toISOString().slice(0, 10)}.txt`;
       a.click();
       URL.revokeObjectURL(url);
     };

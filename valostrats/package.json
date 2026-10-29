@@ -1,5 +1,5 @@
 {
-  "name": "valostrats",
+  "name": "VStrategy",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -42,8 +42,8 @@
     "electron-builder": "^24.13.3"
   },
   "build": {
-    "appId": "com.example.valostrats",
-    "productName": "ValoStrats",
+    "appId": "com.example.VStrategy",
+    "productName": "VStrategy",
     "directories": {
       "output": "dist"
     },

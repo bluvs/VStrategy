@@ -34,8 +34,8 @@ export default function Sidebar() {
           <path d="M 68 35 L 85 35 L 50 95 L 32 35 L 48 35 L 50 65 Z" fill="#ece8e1" />
         </svg>
         <h1 className="text-4xl font-bold uppercase tracking-wider flex items-center">
-          <span className="text-[#ff4655]">Valo</span>
-          <span className="text-[#ece8e1]">Strats</span>
+          <span className="text-[#ff4655]">VStra</span>
+          <span className="text-[#ece8e1]">tegy</span>
         </h1>
       </div>
 
