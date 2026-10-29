@@ -7,7 +7,7 @@ Najprostszą opcją jest darmowy hosting **Railway.app**.
 ## Krok po kroku:
 
 1. **Wrzuć kod na GitHub:**
-   - Upewnij się, że cały twój kod (folder `valostrats`) znajduje się w repozytorium na Twoim koncie GitHub.
+   - Upewnij się, że cały twój kod (folder `VStrategy`) znajduje się w repozytorium na Twoim koncie GitHub.
 
 2. **Zaloguj się na Railway:**
    - Wejdź na stronę [railway.app](https://railway.app) i zaloguj się za pomocą konta GitHub.
